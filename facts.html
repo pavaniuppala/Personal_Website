@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    min-height: 75vh;
+    background: #f01710;
+  } */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .navi {
+            margin-top: 2%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .navi li {
+            display: inline;
+            margin-right: 8%;
+            /* margin-top: 1%; */
+            /* margin-bottom: 2%; */
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .navi li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 17px;
+            /* text-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.5); */
+        }
+
+        .navi li a:hover {
+            /* color: black; */
+            text-decoration: none;
+            cursor: pointer;
+            border-bottom: 2px solid white;
+        }
+
+        ul li {
+            margin-top: 8px;
+            /* color: #fff;*/
+            font-size: 2vh;
+            font-weight: bold;
+        }
+
+        h5 {
+            font-size: 3vw;
+            overflow: visible;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 12%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95vw;
+            min-height: 75vh;
+            color: #fff;
+            background: #f01710;
+            border-radius: 15px 47px;
+            /* margin: 10px; */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark fixed-top" style="color:#fff;width:100%; background:#080a0e;">
+        <div class="container">
+            <a href="nav-brand" class="font-weight-bold  text-white text-decoration-none">
+                <h6 class="text">PAVANI.UPPALA</h6>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navone"
+                aria-controls="navone" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navone">
+                <ul class="navbar-nav  ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="self.html">SELF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="facts.html">FACTS</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="activity.html">ACTIVITY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="future.html">FUTURE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- <ul class="navi">
+        <li><a href="#"><b>HOME</b></a></li>
+        <li><a href="https://pavani25350.github.io/page2/"><b>SELF</b></a></li>
+        <li><a href="#"><b>DIARY</b></a></li>
+        <li><a href="#"><b>CONTACT US</b></a></li> 
+      </ul>  -->
+    <div class="card" data-aos="flip-right">
+        <ul>
+            <li>
+                <h2 data-aos="fade-right">Monks have the happiest brains on the planet🤩.</h2>
+            </li>
+            <li data-aos="fade-left">A person can have two pupils in their eyes. It is known as Pupula Duplex😮.</li>
+            <li data-aos="fade-right">In 1924 people used to play real-life chess called HUMAN CHESS😊.</li>
+            <li data-aos="fade-left">Hearing your name when no one actually calling you is a sign of healthy mind🥳.
+            </li>
+            <li data-aos="fade-right">If humans had eagle's eyes, we could see an ant on the ground from the roof of a
+                10 storey building🙂.</li>
+            <li data-aos="fade-left">Leeches have 32 brains😲.</li><br>
+            <li>
+                <h6>MYTH : Trees produce most of the oxygen on earth.</h6>
+                <h6>FACT : Oceans produce more oxygen than all the trees combined.</h6>
+            </li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2500,
+        });
+    </script>
+</body>
+
+</html>

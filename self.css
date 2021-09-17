@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 90vw;
+    height:100vh;
+    background: rgb(196, 132, 132);
+    z-index: 1;
+}
+.card
+{
+    height:auto;
+    border:1px solid white;
+    border-radius:0 5px 25px 15px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+    margin-top: 45px;
+    box-shadow:3px 3px 1px rgb(161, 90, 90),-1px -1px 5px ;
+}
+.card:active
+{
+    box-shadow: inset 1px 1px 2px #babcee,inset -1px -1px 2px #fff;
+}
+.card a
+{
+    text-align: center;
+    padding:35px;
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(148, 73, 73);
+}
+.card a:hover{
+    color : black;
+}
+.alignment
+{
+     margin-left:auto;
+    margin-right: auto; 
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.topimg
+{
+    /* border: 1px solid; */
+    top:10%;
+    left: 10%;
+    position: absolute;
+    border-radius: 50%;
+    width:200px;
+    height: 180px;
+}
+.topsec
+{
+    background: #fff;
+    height: auto;
+}
+.sec1txt
+{
+    top:10%;
+    left: 38%;
+    position: absolute;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 50%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom:20px ;
+    /* background: #fff; */
+}
+#next
+{
+    margin-left: 80%;
+    margin-top: 95vh;
+    margin-bottom: 10px;
+}
+#prev
+{
+    margin-left: 50px;
+    margin-top: 95vh;
+    position: absolute;
+    margin-bottom: 10px;
+}
+@media (max-width:600px) 
+{
+    .sec1txt
+    {
+         top:9%; 
+        left: 46%;
+        padding: 5px;
+    } 
+.topimg
+{
+    top:15%;
+    left: 2%;
+    border-radius: 50%;
+    position: absolute;
+    width:150px;
+    height: 140px; 
+}
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul li {
+    display: inline;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    text-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.5);
+}
+ul li a:hover
+{
+   color: black;
+   text-decoration: solid;
+   cursor: pointer;
+   border-bottom: 2px solid black;
+}

@@ -1,0 +1,155 @@
+ *{
+     margin: 0;
+     padding: 0;
+    box-sizing: border-box;
+ }
+ body{
+    width: 95vw;
+    height: 100vh;
+} 
+.clickme
+{
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 130px;
+    margin-left: 6%;
+    font-size: larger;
+    margin-bottom: 10px;
+    background: black;
+    color: aliceblue;
+}
+.clickme:hover{
+    background-color: white;
+    color: black;
+}
+
+.clickme1
+{
+    /* border: 1px solid black; */
+    text-decoration: none;
+    background: green;
+    color: aliceblue;
+    width: 300px;
+    border-radius:25px;
+    padding: 5px;
+    position: relative;
+    bottom: 20px;
+    margin-left:5px;
+    font-size: large;
+    text-align: center;
+    margin-right: auto;
+    /* border-bottom: 30px; */
+    /* margin-bottom: 50px; */
+}
+.clickme1:hover{
+    background: rgb(17, 99, 10);
+    color: aliceblue;
+}
+label{
+    position: absolute;
+    width: 45px;
+    height: 25px;
+    right: 40%;
+    top: 27px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-bottom:10px;
+}
+label:before
+{
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    left: 1px;
+    top:1px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: black;
+    transition: 0.4s;
+}
+label.active:before 
+{
+    left: 24px;
+    background: #fff;
+}
+body.night
+{
+    background: #000;
+    color: #fff;
+}
+body h4{
+    text-align: center;
+    top: 18px;
+}
+
+header{
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    height: 60px;
+    top: 80px;
+    position: absolute;
+    left:38%;
+    width: 200px;
+}
+section
+{
+    width: 100vw; 
+    height: auto;
+    background:linear-gradient(rgb(0, 195, 255),green);
+    border: 1px solid green;
+    border-radius: 80px 10px 25px 0;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+ul li {
+    display: inline;
+    margin-right: 8%;
+    margin-top: 2%;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li a
+{
+    text-decoration: none;
+    color: rgb(44, 159, 236);
+    font-size: 17px;
+}
+ ul li a:hover
+{
+   /* color: black; */
+   text-decoration: none;
+   cursor: pointer;
+   padding: 5px;
+   border: 1px solid white;
+} 
+ @media (min-width:900px)
+{
+    header{
+        border-radius: 25px;
+        height: 60px;
+        top: 90px;
+        position: absolute;
+        left:43%;
+        width: 200px;
+    }   
+} 
+@media (max-width:500px) {
+    header{
+        left:27%;
+        margin-right: 30%;
+        top:8%;
+    }     
+} 
+ @media (max-width:500px)
+{
+   form 
+{
+    margin-left: 5%;
+} 
+} 

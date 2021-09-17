@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="contact.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://kit.fontawesome.com/b8f770e4ca.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="/docs/5.0/assets/css/docs.css" rel="stylesheet"> -->
+    <style>
+        body {
+            background-image: url(https://img.freepik.com/free-photo/contact-us_36325-2135.jpg?size=626&ext=jpg);
+            background-color: lightseagreen;
+            background-size: cover;
+            background-blend-mode: darken;
+            background-repeat: no-repeat;
+            width: 100%;
+            position: fixed;
+            height: auto;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            top: 10%;
+            font-weight: bold;
+        }
+
+        .boxfull h1 {
+            margin-top: 18%;
+        }
+
+        .box {
+            width: 30vw;
+            height: 300px;
+            border: 1px solid white;
+            background-color: aliceblue;
+            color: #000;
+            /* margin-right: 20px; */
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        i {
+            /* text-align: center; */
+            font-size: 40px;
+            padding-top: 20px;
+            padding-left: 45%;
+        }
+
+        .a {
+            text-decoration: none;
+            color: #fff;
+            outline: none;
+            margin-left: 35%;
+            padding: 6px;
+            font-weight: bold;
+            border: 1px solid black;
+            background: #000;
+            color: aliceblue;
+        }
+
+        .a:hover {
+            color: black;
+            background: #fff;
+        }
+
+        ul {
+            /* margin-left: 4%;
+    margin-top: 2%; */
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        ul li {
+            display: inline;
+            margin-right: 8%;
+            margin-top: 3%;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 17px;
+            /* text-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.5); */
+        }
+
+        ul li a:hover {
+            color: black;
+            text-decoration: solid;
+            cursor: pointer;
+            border-bottom: 2px solid black;
+        }
+
+        @media (min-width:1300px) {
+            .a {
+                margin-left: 40%;
+            }
+        }
+
+        @media (max-width:500px) {
+            .box {
+                width: 22vh;
+                height: 300px;
+                border: 1px solid lightseagreen;
+                background-color: #fff;
+                color: black;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .row a {
+                text-decoration: none;
+                color: #fff;
+                margin-left: 23%;
+            }
+
+            .boxfull h1 {
+                margin-top: 25%;
+            }
+
+            i {
+                padding-left: 38%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  navbar-dark fixed-top" style="color:#fff;width:100%; background:#080a0e;">
+        <div class="container">
+            <a href="nav-brand" class="font-weight-bold  text-white text-decoration-none">
+                <h5 class="text">PAVANI.UPPALA</h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navone"
+                aria-controls="navone" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navone">
+                <ul class="navbar-nav  ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="self.html">SELF</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="facts.html">FACTS</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="activity.html">ACTIVITY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="future.html">FUTURE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container boxfull" data-aos="zoom-in">
+        <!-- <img class="img-fluid" src="https://image.shutterstock.com/image-illustration/website-internet-contact-us-page-260nw-1056676853.jpg"alt="image1"> -->
+        <h1 class="text-center text-white">Get in touch</h1>
+        <h6 class="text-center text-white">Any suggestions are glad to hear...</h6>
+    </div><br><br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4 box" data-aos="flip-right">
+                <i class="fab fa-linkedin"></i><br><br>
+                <a class="a" href="https://www.linkedin.com/in/pavani-uppala-5b7843211">LinkedIn</a>
+                <div class="text-center"><br><br>
+                    Suggestions!!!Then DM me here
+                </div>
+            </div>
+            <div class="col-sm-4 box" data-aos="flip-right">
+                <i class="fab fa-instagram"></i><br><br>
+                <a class="a" href="https://www.instagram.com/pavani.uppala/">Instagram</a>
+                <div class="text-center"><br><br>
+                    Queries!!!! Can also DM here....
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <!-- <button id="prev"class="btn btn-lg btn-primary" onclick="goback()">Go Back</button>
+    <button id="next"class="next btn btn-lg btn-primary" onclick="location.href='#'">Go Next</button>  
+<script>
+function goBack() {
+   window.history.back();
+}  -->
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1500,
+        });
+    </script>
+</body>
+
+</html>
